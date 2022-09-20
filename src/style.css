@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 .container{
-    /* border: solid blue; */
-background-color: white;
+  
  display: flex;
+ 
+ flex-wrap: wrap;
 
 }
 .card{
@@ -32,6 +33,7 @@ img{
  }
  section{
      text-align: center;
+     word-break: break-all;
     }
     h2{
         padding: 10px;

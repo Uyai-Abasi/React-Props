@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import Card from './card';
+// import Input from './input';
 import './style.css';
-import Image1 from './ship.jfif'
-import Image2 from './nikola.jfif'
-import Image3 from './tesla.jfif'
+import Image1 from './card component/ship.jfif'
+import Image2 from './card component/nikola.jfif'
+import Image3 from './card component/tesla.jfif'
 
 function App() {
 
@@ -27,10 +29,17 @@ function App() {
     },
 
   ]
+// const [values, setValue]=useState(items )
+
+// function Add(){
+//   console("i have been clicked")
+ 
+// }
 
 
   return(
 <>
+{/* <Input items={items}/> */}
 <Card items={items}/>
 
 </>
